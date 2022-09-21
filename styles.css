@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed&family=Karla&family=Kumbh+Sans&family=Poppins:wght@100&display=swap');
+body{
+    font-family: karla,sans-serif;
+    font-size: 16px;
+    display: flex;
+    background-color: #eee;
+    padding: 0;
+    margin: 0;width: 100vw;height: 100vh;
+    font-stretch:2px;
+}
+.main{
+    margin: 5vh auto;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width:750px;
+    height:80vh;
+    border-radius: 10px;
+}
+.head{
+    background-color: white;
+    padding: 40px 50px 30px 60px;
+    color:hsl(218, 22%, 67%);
+    flex-grow: 2;
+    border-radius: 10px 10px 0 0;
+}
+h2{
+    color: hsl(179, 62%, 43%);
+}
+.head h4{
+    color:hsl(71, 73%, 54%)
+}
+.sign{
+flex-grow: 1;
+    color:hsl(204, 43%, 93%);
+    background-color: hsl(179, 62%, 43%);
+    padding:30px;
+    width:300px;
+    border-radius: 0 0 0 10px;
+   
+}
+
+#des{
+    display: flex;
+    align-content:center;
+    gap:20px;
+    padding:none;
+    margin:0;
+    height: 45px;
+}
+.sign h4{
+    font-size: 19px;
+}
+.big{
+    font-size: 30px;
+    margin:0;align-self: center;
+}
+.small{
+    margin:0;color:hsl(204, 43%, 75%);
+    align-self: center;
+}
+button{
+    background-color:hsl(71, 73%, 54%) ;
+    width:100%;
+    padding: 16px;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.info{
+    flex-grow: 1;
+    padding: 30px ;
+    background-color: hsl(179, 60%, 47%);
+    color:hsl(210, 43%, 90%);
+    width:300px;
+    border-radius: 0 0 10px 0;
+}
+ul{
+    list-style-type:none ;
+    padding: 0;
+    margin: 0;
+
+}
+li{
+    padding: 2px;
+}
+.big2{
+    font-size: 20px;
+    
+}
+@media (max-width:375px) {
+    .main{
+        width: 85vw;
+        font-size: 14px;
+        font-weight: normal;
+        height:fit-content;
+        margin: auto;
+   }
+    .info{
+        border-radius: 0 0 10px 10px;
+        width: 80vw;
+        padding: 15px;order: 1; 
+        height:fit-content;
+        font-size: 12px;
+    }
+    .sign{
+        border-radius: 0;
+        width: 80vw;
+        padding: 15px;order: 1; 
+        height:fit-content;
+    }
+    .head{
+        width: 80vw;
+        padding: 15px;order: 1; 
+
+    }
+}
